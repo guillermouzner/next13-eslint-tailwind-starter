@@ -1,1 +1,1 @@
-This is a starter [Next.js](https://nextjs.org/) with appDirectory repository
+Starter project for [Next.js](https://nextjs.org/) with appDirectory
