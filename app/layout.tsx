@@ -14,12 +14,13 @@ const inter = Inter({
 interface RootLayoutProps {
   children: React.ReactNode;
 }
+
 export default function RootLayout({children}: RootLayoutProps) {
   return (
     <html suppressHydrationWarning lang="es">
       <head />
       <body className={cn("min-h-screen bg-background font-sans antialiased", inter.variable)}>
-        <ThemeProvider enableSystem attribute="class" defaultTheme="system">
+        <ThemeProvider enableSystem attribute="class" defaultTheme="dark">
           {children}
           <Toaster />
           <TailwindIndicator />
